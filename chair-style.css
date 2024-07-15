@@ -242,7 +242,7 @@ header {
   width: 100%;
   overflow-x: scroll;
   gap: 30px;
-  overflow-y: hidden;
+ 
 }
 
 .row::-webkit-scrollbar {
@@ -707,20 +707,22 @@ header {
   
 
   #testimonial-section {
-    height: 85vh;
+    height: 100vh;
   }
   
   .testimonial {
     flex-direction: column;
+   
   }
   
 
   .pfp {
     align-items: center;
+
   }
   
   #footer {
-    height: 90vh;
+    height: 100vh;
    
     
   }
