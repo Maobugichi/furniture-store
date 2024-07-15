@@ -229,14 +229,20 @@ header {
 }
 
 #chair-section {
-  height: 160vh;
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  align-items: center;
+
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ text-align: center;
 }
 
 .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.roww {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -608,7 +614,7 @@ header {
   #chair-section {
     height: 430vh;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
   }
@@ -625,8 +631,14 @@ header {
   
   .row-1 {
     width: 80%;
-    height: 310px;
+    height: 330px;
     padding-bottom: 40px;
+  }
+
+  .roww {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
  
   #dedi {
