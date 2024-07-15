@@ -614,7 +614,7 @@ header {
   #chair-section {
     height: 430vh;
     display: flex;
-    gap: 10px;
+    gap: 0;
     flex-direction: column;
     align-items: center;
   }
@@ -624,7 +624,7 @@ header {
     flex-direction: column;
      align-items: center;
     width: 100%;
-    gap: 20px;
+    gap: 40px;
   
   }
   
@@ -638,7 +638,7 @@ header {
   .roww {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
   }
  
   #dedi {
