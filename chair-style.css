@@ -602,9 +602,18 @@ header {
   }
   
   .fur-left p {
-    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
   }
   
+  .fur-left h3 {
+    font-size: 40px;
+  }
+
+  .fur-left button {
+    width: 90px;
+  }
   
   .carousel-img{
     height: 40vh;
@@ -707,7 +716,7 @@ header {
   
 
   #testimonial-section {
-    height: 100vh;
+    height: 130vh;
   }
   
   .testimonial {
