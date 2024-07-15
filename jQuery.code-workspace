@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/2.3+NPM/2.3 NPM"
+		},
+		{
+			"path": "../../../Downloads/anime-master/anime-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jQuery"
+	}
+}
