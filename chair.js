@@ -44,6 +44,16 @@ next.addEventListener('click', () => {
   plusSlides(1)
 })*/
 
+alert("hello")
+
+
+const item = document.querySelector(".item");
+
+const ss = document.querySelector(".ss");
+
+item.addEventListener("click", () => {
+  ss.classList.toggle("add")
+})
 
 let slideIndex = 0;
 showSlides(); 
@@ -110,6 +120,11 @@ for (i = 0; i < btn.length; i++) {
   })
   
 }
+
+
+
+
+
 
 
 
