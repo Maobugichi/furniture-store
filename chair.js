@@ -44,7 +44,6 @@ next.addEventListener('click', () => {
   plusSlides(1)
 })*/
 
-alert("hello")
 
 
 const item = document.querySelector(".item");
