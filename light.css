@@ -62,6 +62,10 @@ body,html {
  
 }
 
+
+.showw {
+  display: none;
+}
 .nav-list li {
   padding: 10px;
   font-size: 18px;
