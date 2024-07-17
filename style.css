@@ -96,6 +96,11 @@ a:active {
    margin-top:5px ;
 }
 
+.showw {
+  display: none;
+ }
+
+
 main {
   margin-top: 50px;
   display: flex;
@@ -867,8 +872,55 @@ hr {
       
     }
     
+    .showw {
+      display: block;
+      margin-top: 0px;
+      position: fixed;
+      width: 100%;
+      height: 50px;
+      top: 0;
+      z-index: 1;
+      background-color: rgba(169, 169, 169, .5);
+      
+    }
+  
+    .ham {
+      display: flex;
+      width: 90%;
+      margin: auto;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 0px;
+      height: 100%;
+     
+     
+    }
+  
+    .ss {
+      background-color: #A9A9A9;
+      height: 50vh;
+      width: 100%;
+      transform: translateY(-10px);
+      display: none;
+    }
+  
+    .add {
+      transition: transform 2s ease-in;
+      transform: translateY(2px);
+      display: block;
+    }
+  
+    .ss ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items:flex-end;
+      list-style: none;
+      
+    }
     
-    
+
     .call-to-action {
       margin-top: 30px;
       width: 100%;
