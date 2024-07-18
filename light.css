@@ -15,11 +15,13 @@
 body,html {
  display: block;
  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
-.home {
-  
-}
+
 
 /*nav section*/
 #nav {
@@ -200,8 +202,6 @@ h1 {
  
 }
 
-
-
 .frat-div {
  
  display: flex;
@@ -221,8 +221,6 @@ h1 {
   width: 190px;
   
 }
-
-
 
 .gen-sec {
   height: 120vh;
@@ -296,6 +294,9 @@ h1 {
   margin-bottom: 10px;
 }
 
+.bld h5:hover {
+  color: #F28C28;
+}
 
 
 .trend-flex {
@@ -667,6 +668,10 @@ h1 {
   overflow-x: hidden;
 }
 
+#nav {
+  display: none;
+}
+
 
 
 .showw {
@@ -718,37 +723,39 @@ h1 {
 }
 
 .hero-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
+ 
+  justify-content: space-around;
+ 
+ 
 }
 
 .left {
   width: 70%;
   height: 70%;
+}
 
- 
+.left div {
+ height: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.left * {
+  margin-left: 10px;
 }
 
 h1 {
   font-size: 40px;
 }
 
-.left button {
-  width: 150px;
-  padding: 12px ;
-  background-color: #333;
-  color: white;
-  border: 1px white solid;
-}
 
 .right {
  display: flex;
  justify-content: flex-end;
   width: 40%;
-  height: 80%;
+  height: 70%;
+ 
 }
 
 .right img {
@@ -758,10 +765,6 @@ h1 {
 }
 
 
-#nav {
-  display: none;
-}
-
   .hero {
     width: 100%;
   }
@@ -769,13 +772,26 @@ h1 {
     width: 100%;
   }
 
+  .gen-sec {
+    height: 80vh;
+    margin-bottom: 10px;
+  }
+
   .frat {
     height: fit-content;
     text-align: center;
   }
 
+  .swiper-button-prev,.swiper-button-next {
+  color: #333;
+  }
+
   .head-flex h2 {
     font-size: 20px;
+  }
+
+  .head-flex {
+    margin-bottom: 10px;
   }
 
   .head-flex button {
