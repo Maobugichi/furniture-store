@@ -285,7 +285,7 @@
 }
 
 .trend-div {
-  background-image: url("./ml14.jpg");
+  background-image: url("/photos/tb1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50%;
@@ -318,49 +318,49 @@
 }
 
 .im2 {
-  background-image: url("./tb10.jpg");
+  background-image: url("/photos/tb10.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im3 {
-  background-image: url("./tb1.jpg");
+  background-image: url("/photos/tb1.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im4 {
-  background-image: url("./tb2.jpg");
+  background-image: url("/photos/tb2.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im5 {
-  background-image: url("./tb3.jpg");
+  background-image: url("/photos/tb3.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im6 {
-  background-image: url("./tb4.jpg");
+  background-image: url("/photos/tb4.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im7 {
-  background-image: url("./tb5.jpg");
+  background-image: url("/photos/tb5.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im8 {
-  background-image: url("./tb6.jpg");
+  background-image: url("/photos/tb6.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
@@ -368,28 +368,28 @@
 
 
 .im9 {
-  background-image: url("./tb7.jpg");
+  background-image: url("/photos/tb7.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im10 {
-  background-image: url("./tb8.jpg");
+  background-image: url("/photos/tb8.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im11 {
-  background-image: url("./tb9.jpg");
+  background-image: url("/photos/tb9.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im12 {
-  background-image: url("./tb6.jpg");
+  background-image: url("/photos/tb6.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
@@ -723,7 +723,25 @@
    .trend-flex {
     flex-direction: column;
     align-items: center;
-   
+    gap: 10px;
+   }
+
+   .head-flex {
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   .head-flex h2{
+   width: 70%;
+   font-size: 20px;
+   }
+
+   .head-flex button {
+
+   }
+
+   .bld {
+    width: 100%;
    }
 
    .whc {
@@ -824,14 +842,7 @@
     
   }
   
-  .submit {
-    padding: 11px 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: #F28C28;
-    color: white;
-    transition: transform box-shadow ease-in-out 1s;
-  }
+ 
   
 
 

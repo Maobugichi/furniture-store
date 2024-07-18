@@ -224,6 +224,8 @@ h1 {
 
 .gen-sec {
   height: 120vh;
+  padding: 10px;
+
 }
 
 .gen-flex {
@@ -237,7 +239,7 @@ h1 {
 
 .gen-img {
   display: block;
-  background-image: url('./ml1.jpg');
+  background-image: url('/photos/ml1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -247,7 +249,7 @@ h1 {
 
 .gen-img-2 {
   display: block;
-  background-image: url('./ml6.jpg');
+  background-image: url('/photos/ml6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -306,7 +308,7 @@ h1 {
 }
 
 .trend-div {
-  background-image: url("./ml14.jpg");
+  background-image: url("/photos/ml14.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 50%;
@@ -339,49 +341,49 @@ h1 {
 }
 
 .im2 {
-  background-image: url("./ml15.jpg");
+  background-image: url("/photos/ml15.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im3 {
-  background-image: url("./ml16.jpg");
+  background-image: url("/photos/ml16.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im4 {
-  background-image: url("./m18.jpg");
+  background-image: url("/photos/m18.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im5 {
-  background-image: url("./m19.jpg");
+  background-image: url("/photos/m19.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im6 {
-  background-image: url("./m20.jpg");
+  background-image: url("/photos/m20.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im7 {
-  background-image: url("./m21.jpg");
+  background-image: url("/photos/m21.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im8 {
-  background-image: url("./m22.jpg");
+  background-image: url("/photos/m22.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
@@ -389,28 +391,28 @@ h1 {
 
 
 .im9 {
-  background-image: url("./m23.jpg");
+  background-image: url("/photos/m23.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im10 {
-  background-image: url("./m24.jpg");
+  background-image: url("/photos/m24.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im11 {
-  background-image: url("./m25.jpg");
+  background-image: url("/photos/m25.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im12 {
-  background-image: url("./m26.jpg");
+  background-image: url("/photos/m26.jpg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
