@@ -501,6 +501,15 @@ h3 {
   }
 
   .ss {
+    background-color: rgba(169, 169, 169, .8);
+    height:   100vh;
+    display: flex;
+    width: 100%;
+    display: none;
+    animation-name: mao;
+    animation-duration: 2s;
+    
+  }ss {
     background-color: rgba(169, 169, 169, .5);
     height:   100vh;
     display: flex;
