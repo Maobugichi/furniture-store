@@ -671,13 +671,13 @@ justify-content: space-around;
 
 .fa {
   background-color: #F28C28;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  padding-bottom: 5px;
-   height: 40px;
- border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50%;
+ 
+
 }
 
 .pp  {

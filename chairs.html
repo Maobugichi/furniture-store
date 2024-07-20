@@ -7,8 +7,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./chair-style.css">
+
 
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="https://kit.fontawesome.com/16d8e45631.js" crossorigin="anonymous"></script>
@@ -123,13 +129,15 @@
 
 <hr>
 <section class="cs">
-  <div class="container">
-    <div id="chair-section">
+  <div class="container ">
+   
    
       <h4>OUR PRODUCTS</h4>
       <h2>NEW ARRIVALS</h2>
-      <div class="row">
-        <div class="row-1">
+
+      <div id="chair-section swiper" >
+      <div class="row swiper-wrapper">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/range.jpeg" alt="">
   
           <div class="festus">
@@ -148,7 +156,7 @@
         </div>
   
   
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/postmodern.jpeg" alt="">
   
           <div class="festus">
@@ -167,7 +175,7 @@
         </div>
        
       
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/contemporary.jpeg" alt="">
   
           <div class="festus">
@@ -185,7 +193,7 @@
          
         </div>
   
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/beaut.jpeg" alt="">
   
           <div class="festus">
@@ -201,7 +209,7 @@
           </div>
           
         </div>
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/courbre.jpeg" alt="">
   
           <div class="festus">
@@ -219,7 +227,7 @@
          
         </div>
   
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/accent.jpeg" alt="">
   
           <div class="festus">
@@ -236,7 +244,7 @@
         </div>
   
   
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/dining-chair.jpeg" alt="">
   
           <div class="festus">
@@ -254,7 +262,7 @@
          
         </div>
   
-        <div class="row-1">
+        <div class="row-1 swiper-slide">
           <img class="rol-img" src="/photos/mono.jpeg" alt="">
   
           <div class="festus">
@@ -269,9 +277,12 @@
           </div>
           
         </div>
+
+
           
       </div>
   
+     
    
        
   
@@ -360,157 +371,188 @@
 
 <hr>
 
-<section class="cs2">
-  <div class="container"> 
-    <div id="chair-section-2">
-    <h2>Exclusives</h2>
-    <div class="row">
-      <div class="row-1">
-        <img class="rol-img" src="/photos/mono.jpeg" alt="">
-        <div class="festus">
-          <h4>The Mono chair</h4>
 
-          <p>125$</p>
+<section class="trendd">
+  <div class="container">
+    <div class="head-flex">
+      <h2>Trending products! </h2>
 
-        <div class="btn-div">
-          <button class="add" id="btn-19">-1</button>
-          <button class="add" id="btn-20">+1</button>
+      <button class="pro-btn">View All Product <i class="fa-solid fa-arrow-right-long" style="color: #0c0d0d;"></i></button>
+    </div>
+
+    <div class="bld">
+       <h5>Bed room</h5>
+       <h5>Living room</h5>
+       <h5>Dining room</h5>
+       <h5>Outdoor</h5>
+       <h5>Indoor</h5> 
+    </div>
+
+    <div class="trend-flex">
+      <div class="trend-div im7">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart" ></i> 
+          </div>
+
         </div>
-       
+
+        <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
+
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
+
+          
         </div>
-       
       </div>
 
-      <div class="row-1">
-        <img class="rol-img" src="/photos/chrome.jpeg" alt="">
+      <div class="trend-div im8">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart" ></i> 
+          </div>
 
-        <div class="festus">
-          <h4>The Chrome chair</h4>
-          <p>125$</p>
-
-        <div class="btn-div">
-          <button class="add" id="btn-21">-1</button>
-          <button class="add" id="btn-22">+1</button>
         </div>
-       
-        </div>
-        
 
-       
-      </div>
+        <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
 
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
 
-      <div class="row-1">
-        <img class="rol-img" src="/photos/artistic.jpeg" alt="">
-
-        <div class="festus">
-          <h4>One of One Artis chair</h4>
-
-          <p>125$</p>
-
-        <div class="btn-div">
-          <button class="add" id="btn-23">-1</button>
-          <button class="add" id="btn-24">+1</button>
-        </div>
-       
-        </div>
          
+        </div>
       </div>
 
-      <div class="row-1">
-        <img class="rol-img" src="/photos/gala.jpeg" alt="">
+      <div class="trend-div im9">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart" ></i> 
+          </div>
 
-        <div class="festus">
-          <h4>The Embrace chair</h4>
+        </div>
 
-          <p>125$</p>
-        <div class="btn-div">
-          <button class="add" id="btn-25">-1</button>
-          <button class="add" id="btn-26">+1</button>
+        <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
+
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
+
+          
         </div>
-       
-        </div>
-        
       </div>
-        
     </div>
 
-    <div class="row">
-      <div class="row-1">
-        <img class="rol-img" src="/photos/range.jpeg" alt="">
 
-        <div class="festus">
-          <h4>The range chair</h4>
+    <div class="trend-flex">
+      <div class="trend-div im10">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart" ></i> 
+          </div>
 
-          <p>125$</p>
-        <div class="btn-div">
-          <button class="add" id="btn-27">-1</button>
-          <button class="add" id="btn-28">+1</button>
         </div>
-       
-        </div>
+
+        <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
+
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
+
         
-
-       
+        </div>
       </div>
 
+      <div class="trend-div im11">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart" ></i> 
+          </div>
 
-      <div class="row-1">
-        <img class="rol-img" src="/photos/embrace.jpeg" alt="">
-
-        <div class="festus">
-          <h4>The tokolor chair</h4>
-
-          <p>125$</p>
-        <div class="btn-div">
-          <button class="add" id="btn-29">-1</button>
-          <button class="add" id="btn-30">+1</button>
         </div>
-       
-        </div>
-        
 
-       
+          <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
+
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
+
+         
+        </div>
       </div>
-     
+
+      <div class="trend-div im12">
+        <div class="per">
+          <p class="pper">20%</p>
+          <div class="fa">
+            <i class="fa-solid fa-heart"
+             ></i> 
+          </div>
+
+        </div>
+
+        <div class="pp">
+          <div class="pp-flex">
+            <div>
+              <p>luxe lounge lamp</p>
+              <p>$235.99</p>
+            </div>
+           
+
+            <div class="org" >
+              <i class="fa-solid fa-cart-shopping" style="color: #0d0f12;"></i>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+
+   
     
-      <div class="row-1">
-        <img class="rol-img" src="/photos/contemporary.jpeg" alt="">
-
-        <div class="festus">
-          <h4>The Embrace chair</h4>
-
-          <p>125$</p>
-
-        <div class="btn-div">
-          <button class="add" id="btn-40">-1</button>
-          <button class="add" id="btn-41">+1</button>
-        </div>
-       
-        </div>
-        
-
-       
-      </div>
-
-      <div class="row-1">
-        <img class="rol-img" src="/photos/festus.jpeg" alt="">
-
-        <div class="festus">
-          <h4>The contemporary chair</h4>
-          <p>125$</p>
-       
-        <div class="btn-div">
-          <button class="add" id="btn-42">-1</button>
-          <button class="add" id="btn-43">+1</button>
-        </div>
-       
-        </div>
-        
-      </div>
-    </div>
-
-  </div></div>
+  </div>
  
 </section>
 
@@ -560,8 +602,9 @@
   <div class="container-2">
   
   <div class="footer-list">
-    <h5>Section</h5>
+    
     <ul>
+      <h5>Section</h5>
       <li>Home</li>
       <li>Features</li>
       <li>Pricing</li>
@@ -572,8 +615,9 @@
   </div>
   
   <div class="footer-list">
-    <h5>Section</h5>
+   
     <ul>
+      <h5>Section</h5>
       <li>Home</li>
       <li>Features</li>
       <li>Pricing</li>
@@ -584,8 +628,9 @@
   </div>
 
   <div class="footer-list">
-    <h5>Section</h5>
+    
     <ul>
+      <h5>Section</h5>
       <li>Home</li>
       <li>Features</li>
       <li>Pricing</li>

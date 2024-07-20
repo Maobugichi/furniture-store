@@ -686,8 +686,13 @@
     height: 100%;
    }
 
+   button {
+    color: black;
+   }
+
    .exl {
-    height: 150vh;
+    height: fit-content;
+    padding-bottom: 10px;
    }
   
    .exl-flex {
@@ -736,9 +741,7 @@
    font-size: 20px;
    }
 
-   .head-flex button {
-
-   }
+   
 
    .bld {
     width: 100%;
@@ -746,6 +749,7 @@
 
    .whc {
     height: fit-content;
+    padding-bottom: 10px;
    }
   
    .we-flex {
