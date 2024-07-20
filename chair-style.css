@@ -171,8 +171,6 @@ header {
 }
 
 
-
-
 .fade {
   animation-name: fade;
   animation-duration: 2s;
@@ -842,6 +840,7 @@ height: 100%;
 
   .ss ul a {
     text-decoration: none;
+    font-size: 18px;
   }
 
   header {
