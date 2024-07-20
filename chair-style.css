@@ -813,7 +813,7 @@ height: 100%;
     display: none;
     animation-name: mao;
     animation-duration: 2s;
-    
+   z-index: 2;
   }
 
   @keyframes mao {
@@ -835,7 +835,7 @@ height: 100%;
     justify-content: space-evenly;
     align-items:center;
     list-style: none;
-    
+    z-index: 1;
   }
 
   .ss ul a {
