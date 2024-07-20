@@ -982,7 +982,7 @@ hr {
       display: block;
       text-align: center;
       width: 100%;
-      
+     
     }
     
     h1 {
@@ -999,39 +999,7 @@ hr {
       padding: 10px;
       margin: auto;
     }
-      
-    .heading-1 {
-      background-image: url('./dining-chair.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right center;
-     
-    }
-    
-    .heading-2 {
-      background-image: url('./bright.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right center;
-      border-radius: 3px;
-     
-    }
-    
-    .heading-3 {
-      background-image: url('./Duval\ Table\ Lamp.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position
-    : right center;
-     
-    }
-    .heading-4 {
-      background-image: url('./vida.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: right center;
-    }
-    
+  
     
     #why {
       min-height: 85vh;
