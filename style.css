@@ -942,28 +942,60 @@ hr {
     }
   
     .ss {
-      background-color: #A9A9A9;
-      height: 50vh;
+      background-color: rgba(169, 169, 169, .5);
+      height:   100vh;
+      display: flex;
       width: 100%;
-      transform: translateY(-10px);
       display: none;
+      animation-name: mao;
+      animation-duration: 2s;
+      
     }
   
+    @keyframes mao {
+      from {transform: translateX(-200px);}
+      to {transform: translateX(10px);}
+      
+    }
+
     .add {
       transition: transform 2s ease-in;
       transform: translateY(2px);
       display: block;
     }
+
+
+    .remove {
+      animation-name: mab;
+      animation-duration: 2s;
+    }
+
+
+      @keyframes mab {
+        from {transform: translateX(10px);}
+        to {transform: translateX(-200px);}
+        
+      }
+  
+
+
   
     .ss ul {
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      align-items:flex-end;
+     align-items: center;
       list-style: none;
-      
+    
     }
+
+
+    .ss ul a {
+      text-decoration: none;
+    }
+
+    
     
 
     .call-to-action {
@@ -981,7 +1013,7 @@ hr {
     #category-section {
       display: block;
       text-align: center;
-      width: 100%;
+       width: 100%;
      
     }
     

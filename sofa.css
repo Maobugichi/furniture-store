@@ -501,11 +501,20 @@ h3 {
   }
 
   .ss {
-    background-color: #A9A9A9;
-    height: 50vh;
+    background-color: rgba(169, 169, 169, .5);
+    height:   100vh;
+    display: flex;
     width: 100%;
-    transform: translateY(-10px);
     display: none;
+    animation-name: mao;
+    animation-duration: 2s;
+    
+  }
+
+  @keyframes mao {
+    from {transform: translateX(-200px);}
+    to {transform: translateX(10px);}
+    
   }
 
   .add {
@@ -519,9 +528,13 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items:flex-end;
+    align-items:center;
     list-style: none;
     
+  }
+
+  .ss ul a {
+    text-decoration: none;
   }
 
   .container {
@@ -530,8 +543,6 @@ h3 {
     height: 100%;
   }
 
-  
-  
   #sofa-flex {
     flex-direction: column;
     text-align: center;

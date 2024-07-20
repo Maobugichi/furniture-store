@@ -8,6 +8,7 @@ item.addEventListener("click", () => {
   ss.classList.toggle("add")
 })
 
+
 let slideIndex = 0;
 showSlides(); 
 
