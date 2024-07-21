@@ -2,19 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
    
 
 }
 
 body {
  display: block;
+
 }
+
+
 
 .home {
   overflow-x: hidden;
@@ -110,7 +110,7 @@ main {
  background-size: cover;
  background-repeat: no-repeat;
   background-position:center right ;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   overflow-x: hidden;
   text-align: center;
@@ -136,6 +136,19 @@ main {
 h1 {
   font-size: 50px;
   margin-top: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+span {
+  font-weight: 600;
 }
 
 
@@ -182,17 +195,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5px;
+ 
+ height: fit-content;
+ padding-bottom: 10px;
   width: 100%;
   min-height: 100vh;
 }
 
 /*type-container*/
-#main-cat {
-  width:80%;
-  padding: 10px;
-
-}
 
 
 #category-section h2{
@@ -304,9 +314,11 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
   border: 0.5px #ccc solid;
   transition: box-shadow 0.5s;
   background-color: whitesmoke;
+ 
 }
 
 .opt-div h2 {
@@ -381,10 +393,9 @@ h1 {
 
 .exhibit-div {
   display: grid;
- 
  grid-template-rows: 120px 150px 200px;
  grid-template-columns: 1fr 1fr 1fr;
- gap: 15px;
+ gap: 20px;
  padding: 10px;
 width: 80%;
 }
@@ -481,21 +492,19 @@ width: 80%;
 }
 
 .testi {
-  background-image: url('./quote2.jpg');
-  background-repeat: no-repeat;
-  background-size: 25px 25px;
-  background-position: 350px 10px ;
   border: #333 1px solid;
   border-radius: 5px;
   padding: 50px;
-  
   background-color: #EEEEEE;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
 }
 
 .testi p{
   font-size: 14px;
   font-weight: 30px;
- 
+ line-height: 1.5;
 }
 
 .testi h4{
@@ -635,14 +644,14 @@ justify-content: space-around;
 
 
 .im9 {
-  background-image: url("/photos/accent.jpeg");
+  background-image: url("/photos/desi.jpeg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
 }
 
 .im10 {
-  background-image: url("/photos/acs.jpeg");
+  background-image: url("/photos/green.jpeg");
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: 50%;
@@ -665,16 +674,14 @@ justify-content: space-around;
 .per {
   
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
 }
 
-.fa {
+.fab {
   background-color: #F28C28;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 12px;
+ 
   border-radius: 50%;
  
 
@@ -905,6 +912,10 @@ hr {
   padding: 4px;
 }
 
+p {
+  color: #964b00;
+}
+
 @media (max-width:500px) {
 
     #nav {
@@ -914,9 +925,15 @@ hr {
 
     main {
       margin-top: 50px;
-     
+       height: 80vh;
     }
     
+
+    #left {
+      height: 100%;
+    }
+
+
     .showw {
       display: block;
       margin-top: 0px;
@@ -942,7 +959,7 @@ hr {
     }
   
     .ss {
-      background-color: rgba(169, 169, 169, .5);
+      background-color: rgba(169, 169, 169, .8);
       height:   100vh;
       display: flex;
       width: 100%;
@@ -964,21 +981,10 @@ hr {
       display: block;
     }
 
-
-    .remove {
-      animation-name: mab;
-      animation-duration: 2s;
+    .container {
+      width: 100%;
     }
-
-
-      @keyframes mab {
-        from {transform: translateX(10px);}
-        to {transform: translateX(-200px);}
-        
-      }
   
-
-
   
     .ss ul {
       height: 100%;
@@ -1016,6 +1022,8 @@ hr {
        width: 100%;
      
     }
+
+    
     
     h1 {
       font-size: 40px;
@@ -1027,9 +1035,10 @@ hr {
     }
     /*type-container*/
     #main-cat {
-      width:90%;
+      width:100%;
       padding: 10px;
       margin: auto;
+     
     }
   
     
@@ -1055,7 +1064,8 @@ hr {
     
     
     .opt-div p {
-      font-size: 12px;
+      font-size: 16px;
+      line-height: 1.5;
     }
 
     #exhibit {
@@ -1073,18 +1083,24 @@ hr {
      .test {
       height: 300px;
      }
-      
+
+     .testi p{
+      width: 100%;
+      font-size: 16px;
+      line-height: 1.4;
+     }
+   
      .testimony-div {
-     
       flex-direction: column;
-      
-      
+      width: 100%;
      }
     
-     .trend-flex {
+     .trend-flex {  
       flex-direction: column;
       align-items: center;
-     gap: 20px;
+      gap: 20px;
+      width: 100%;
+      
      }
 
      .bld {
@@ -1092,61 +1108,10 @@ hr {
       
      }
 
-     #footer {
-       height: 100vh;
-       margin-top: 8px;
-       background-color: #ccc;
-       
+     .trend-div {
+      width: 90%;
      }
-     
-     .container-2 {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       height: 100%;
-       text-align: center;
-       width: 90%;
-       margin: auto;
-       
-     }
-     
-     .footer-list h5{
-       font-size: 20px;
-      
-     }
-     
-    
-     .footer-list ul li {
-      
-       font-size: 14px;
-      
-     }
-     
-    .footer-email p {
-      font-size: 12px;
-      margin-bottom: 5px;
-    }
-     
-     .email-input {
-       width: 200px;
-       
-     }
-     
-     .submit {
-       padding: 11px 15px;
-       border-radius: 5px;
-       border: none;
-       background-color: #F28C28;
-       color: white;
-       transition: transform box-shadow ease-in-out 1s;
-     }
-     
-     .submit:hover {
-       transform: translateY(-3px);
-       box-shadow:  0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);;
-     }
-     
-     
+
      #exp {
       height: 120vh;
       width: 100%;
@@ -1172,7 +1137,6 @@ hr {
       font-size: 25px;
      }
 
-     
      
      .right {
        width: 100%;
@@ -1204,7 +1168,6 @@ hr {
      
      
      .mini {
-  
         justify-content: space-between;
        border-radius: 8px;
        position: absolute;
@@ -1227,8 +1190,61 @@ hr {
       
      }
      
+
+     #footer {
+       height: 100vh;
+       margin-top: 8px;
+       background-color: #ccc;
+       
+     }
+     
+     .container-2 {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 100%;
+       text-align: center;
+       width: 90%;
+       margin: auto;
+       
+     }
+     
+     .footer-list h5{
+       font-size: 20px;
+      
+     }
      
     
-      
+     .footer-list ul li {
+       font-size: 14px;
+     }
+     
+    .footer-email p {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+     
+     .email-input {
+       width: 200px;
+     }
+     
+     .submit {
+       padding: 11px 15px;
+       border-radius: 5px;
+       border: none;
+       background-color: #F28C28;
+       color: white;
+       transition: transform box-shadow ease-in-out 1s;
+     }
+     
+     .submit:hover {
+       transform: translateY(-3px);
+       box-shadow:  0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);;
+     }
+     
+     
+    
+     
+  
     
   }
