@@ -405,7 +405,6 @@ width: 80%;
   background-color:#333;
   color: #F28C28;
   padding: 30px;
- 
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
@@ -414,7 +413,7 @@ width: 80%;
 
 .grid-1 p {
   color: white;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .grid-2 {
@@ -1078,6 +1077,15 @@ p {
       display: flex;
       flex-direction: column;
      
+     }
+
+     .grid-1 {
+      background-image: url("photos/ml1.jpg");
+      background-position: 50%;
+     }
+
+     .grid-1 p {
+      display: none;
      }
 
      .test {
