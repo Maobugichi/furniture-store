@@ -5,13 +5,26 @@
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
-   
+}
+
+:root {
+  --primary-color: #F7F7F7;
+  --secondary-color: #032B44;
+  --accent-color: #FFC67D;
+  --background-color: #F5F5F5;
+  --text-color: #333333;
 
 }
 
 body {
  display: block;
+ background-color: var(--background-color);
+ color: var(--text-color);
 
+}
+
+main ,#footer {
+  background-color: var(--primary-color);
 }
 
 
@@ -126,6 +139,7 @@ main {
 
 #left {
   width: 100%;
+  height: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -158,10 +172,11 @@ span {
   justify-content: center;
   width: 200px;
   gap: 20px;
- 
+
 }
 .register {
-  padding: 12px;
+  padding: 10px 20px;
+  color: #ffffff;
   border-radius: 6px;
   border: none;
   box-shadow:  0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);;
@@ -178,16 +193,16 @@ span {
 
 
 .login {
-  padding: 12px;
+  padding: 12px ;
   border-radius: 6px;
   border: none;
   box-shadow:  0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
   transition: transform  1s ease-in-out;
+  font-size: 14px;
 }
 
 .login:hover {
-    transform: scale(1.1) translateY(-5px);
-    
+    transform: scale(1.1) translateY(-5px); 
 }
 
 
@@ -195,11 +210,15 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
  height: fit-content;
  padding-bottom: 10px;
   width: 100%;
   min-height: 100vh;
+}
+
+#main-cat {
+ 
+  width: 90%;
 }
 
 /*type-container*/
@@ -213,18 +232,19 @@ span {
 }
 
 .category-container-1 {
-  
   display: flex;
   gap: 15px;
   justify-content: center;
   margin-bottom: 10px;
+  width: 100%;
+ 
 }
 
 .category-container-2 {
   display: flex;
   justify-content: center;
   gap: 20px;
-  
+  width: 100%;
 }
 
 
@@ -252,8 +272,8 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
+  width: 50%;
 }
-
 
 
 .heading-2 {
@@ -262,7 +282,7 @@ span {
   background-size: cover;
   background-position: right center;
   border-radius: 3px;
- 
+  width: 50%;
 }
 
 .heading-3 {
@@ -271,13 +291,17 @@ span {
   background-size: cover;
   background-position
 : 50%;
+width: 50%;
  
 }
+
+
 .heading-4 {
   background-image: url('/photos/vida.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
+  width: 50%;
 }
 
 
@@ -298,7 +322,7 @@ span {
 
 .options {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: auto;
  gap: 20px;
  height: 100%;
@@ -383,21 +407,22 @@ span {
 
 
 #exhibit {
-  height: 100vh;
+  height: fit-content;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+   ;
 }
 
 .exhibit-div {
   display: grid;
- grid-template-rows: 120px 150px 200px;
- grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 200px 250px 250px;
+ grid-template-columns: 300px 1fr 1fr;
  gap: 20px;
  padding: 10px;
-width: 80%;
+  width: 90%;
 }
 
 
@@ -441,13 +466,14 @@ width: 80%;
 
 .grid-4 {
   padding: 30px;
-  background-image: url('/photos/kenny.jpg');
+  background-image: url('/photos/tofu.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
   border-radius: 5px;
   grid-column: span 1;
   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .grid-5 {
@@ -486,7 +512,7 @@ width: 80%;
 .testimony-div {
  display: flex;
   gap:15px;
-  width: 80%;
+  width: 90%;
  
 }
 
@@ -498,24 +524,22 @@ width: 80%;
  display: flex;
  flex-direction: column;
  gap: 15px;
+ 
 }
 
 .testi p{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 30px;
  line-height: 1.5;
+ 
 }
 
 .testi h4{
  margin-top: 5px;
- font-weight: 50px;
- font-size: 15px;
+ font-weight: 300px;
+ font-size: 18px;
 }
 
-.test-head {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
 
 .pfp {
   display: flex;
@@ -541,6 +565,9 @@ width: 80%;
   width: 20px;
 }
 
+.container {
+  width: 90%;
+}
 
 .trendd {
   height: fit-content;
@@ -597,7 +624,7 @@ justify-content: space-around;
   background-size: 100%;
   background-position: 50%;
   height: 350px;
-  width: 300px;
+  width: 350px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -710,7 +737,7 @@ justify-content: space-around;
 #footer {
   height: 50vh;
   margin-top: 8px;
-  background-color: #ccc;
+ background-color: #ccc;
   
 }
 
@@ -912,7 +939,7 @@ hr {
 }
 
 p {
-  color: #964b00;
+  color: #454f55;
 }
 
 @media (max-width:500px) {
